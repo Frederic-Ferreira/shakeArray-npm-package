@@ -1,0 +1,33 @@
+{
+  "name": "shake-array",
+  "version": "1.0.1",
+  "description": "Randomly changes items' position inside an array",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frederic-Ferreira/shakeArray-npm-package.git"
+  },
+  "keywords": [
+    "array",
+    "position",
+    "change",
+    "items",
+    "order",
+    "random",
+    "randomly",
+    "modify",
+    "shake"
+  ],
+  "author": "FREɄD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frederic-Ferreira/shakeArray-npm-package/issues"
+  },
+  "homepage": "https://github.com/Frederic-Ferreira/shakeArray-npm-package#readme"
+}
