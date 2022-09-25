@@ -1,13 +1,14 @@
 {
   "name": "shake-array",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Randomly changes items' position inside an array",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/Frederic-Ferreira/shakeArray-npm-package/issues"
   },
-  "homepage": "https://github.com/Frederic-Ferreira/shakeArray-npm-package#readme"
+  "homepage": "https://github.com/Frederic-Ferreira/shakeArray-npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1"
+  }
 }
